@@ -1,4 +1,18 @@
-﻿#include <stdio.h>
+﻿/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ * Name: K nearest neighbour algorithm demo      
+ * Program: K-NN_Demo.c
+ * Auther: Guo Yang <guoyang@webmail.hzau.edu.cn>
+ * Version: 0.0.2
+ * Date(mm/dd/yyyy): 6/12/2018
+ * Description: 
+ *  NULL
+ * 
+ * History:
+ *  1. 5/20/2018 guoyang
+ *      first edit, gcc-7.1.0 + macOS 10.13.5
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#include <stdio.h>
 #include <math.h>
 
 #define TRAINING_DATA_LENGTH 19900 // for train
